@@ -1,0 +1,176 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  min-height: 100vh;
+  width: 100%;
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.45),
+      rgba(0,0,0,0.45)
+    ),
+    url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=1600');
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.home-content {
+  max-width: 700px;
+}
+
+.home-content h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.home-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.home-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background: #2e7d32;
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background: #1b5e20;
+}
+
+.about-link {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('https://images.unsplash.com/photo-1497250681960-ef046c08a56e?w=1600');
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+.home-content {
+  max-width: 700px;
+}
+
+.home-content h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.home-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.home-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  display: inline-block;
+  background-color: #2e7d32;
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #1b5e20;
+  transform: scale(1.05);
+}
+
+.home-content h1,
+.home-content h2 {
+  color: white;
+} */
